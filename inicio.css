@@ -22,13 +22,7 @@ body{
     flex-direction: column;
 }
 
-header{
-    background-color: var(--preto-escuro)
-
-}
-
 .cabe{
-    background-color: var(--preto-escuro);
     color: var(--azul-marinho);
     display: flex;
     padding-top: 43px;
@@ -36,18 +30,11 @@ header{
     gap: 115px;
     font-family: var(--fontPrincipal);
     font-size: 25px;
-    font-style: normal;
     font-weight: 400;
 
 }
 
-.home{
-color: var(--azul-marinho);
-text-decoration: none;
-font-weight: bold;
-}
-
-.sobre{
+.home, .sobre{
 color: var(--azul-marinho);
 text-decoration: none;
 font-weight: bold;
@@ -67,31 +54,18 @@ main{
 .texto{
     display: flex;
     flex-direction: column;
-    font-style: var(--fontSegundario);
 }
 
 .text{
     font-family: var(--fontSegundario);
     font-size: 26px;
-    font-weight: normal;
-
 }
 
 .text span{
     color: var(--azul-marinho);
 }
 
-.text2{
-    font-family: var(--fontPrincipal);
-    font-size: 16px;
-}
-
-.text3{
-    font-family: var(--fontPrincipal);
-    font-size: 16px;
-}
-
-.text4{
+.text2, .text3, .text4{
     font-family: var(--fontPrincipal);
     font-size: 16px;
 }
@@ -102,17 +76,7 @@ main{
 }
 
 
-.bott1{
-    background-color: var(--azul-marinho);
-    color: var(--preto-escuro);
-    padding: 25px 59px;
-    text-decoration: none;
-    border-radius: 10px;
-    font-family: var(--fontPrincipal);
-    font-weight: bold;
-}
-
-.bott2{
+.bott1, .bott2{
     background-color: var(--azul-marinho);
     color: var(--preto-escuro);
     padding: 25px 59px;
@@ -128,7 +92,6 @@ main{
     padding: 30px;
     width: 100%;
     text-align: center;
-    font-weight: normal;
     font-size: 26px;
     color: black;
 }
