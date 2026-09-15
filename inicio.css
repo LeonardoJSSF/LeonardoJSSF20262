@@ -59,6 +59,7 @@ main{
 .text{
     font-family: var(--fontSegundario);
     font-size: 26px;
+    margin-bottom: 30px;
 }
 
 .text span{
@@ -68,6 +69,7 @@ main{
 .text2, .text3, .text4{
     font-family: var(--fontPrincipal);
     font-size: 16px;
+    margin-bottom: 30px;
 }
 
 .butt{
