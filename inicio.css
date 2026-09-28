@@ -26,8 +26,9 @@ body{
     color: var(--azul-marinho);
     display: flex;
     padding-top: 43px;
-    padding-left: 265px;
+    padding-left: 20vw;
     gap: 115px;
+
     font-family: var(--fontPrincipal);
     font-size: 25px;
     font-weight: 400;
