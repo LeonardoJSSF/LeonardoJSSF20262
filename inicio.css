@@ -9,7 +9,7 @@
     --fontSegundario: "Krona One", sans-serif;
 }
 
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -57,25 +57,48 @@ main {
     display: flex;
     flex-direction: column;
     max-width: 650px;
+    gap: 0px; /* Altere este valor para aumentar ou diminuir o espaço entre todos os parágrafos ao mesmo tempo! */
 }
 
 .text {
     font-family: var(--fontSegundario);
     font-size: 26px;
-    margin-bottom: 30px;
     line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 20px; /* Margem negativa puxa o texto de baixo para mais perto */
 }
+
 
 .text span {
     color: var(--azul-marinho);
 }
 
-.text2,
-.text3,
-.text4 {
+.text11{
+    font-family: var(--fontSegundario);
+    font-size: 26px;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 5px; /* Margem negativa puxa o texto de baixo para mais perto */
+}
+
+.text2{
     font-family: var(--fontPrincipal);
     font-size: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.text3{
+     font-family: var(--fontPrincipal);
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+.text4{
+     font-family: var(--fontPrincipal);
+    font-size: 16px;
+    margin-bottom: 0px;
     line-height: 1.6;
 }
 
@@ -156,7 +179,7 @@ main {
     .text4 {
         font-size: 14px;
         line-height: 1.6;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
     }
 
     /* BOTÕES */
